@@ -1,0 +1,36 @@
+header {
+  /* height: 5vh; */
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+#user-width,
+#user-height {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+#user-width:focus,
+#user-height:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #45a049;
+}
+
+.box {
+  /* width: 200px;     */
+  background-color: red;
+}

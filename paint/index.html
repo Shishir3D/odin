@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <form
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          justify-content: center;
+          align-items: center;
+        "
+        onsubmit="event.preventDefault(); getUserWidth(); getUserHeight(); "
+      >
+        <div style="display: flex; gap: 8px">
+          <input
+            id="user-width"
+            type="number"
+            placeholder="Enter width (MAX 20)"
+            required
+          />
+          <input
+            id="user-height"
+            type="number"
+            placeholder="Enter height (MAX 20)"
+            required
+          />
+        </div>
+        <input type="submit" id="submit" />
+      </form>
+    </header>
+    <div id="js-div"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
